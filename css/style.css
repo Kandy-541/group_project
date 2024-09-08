@@ -369,3 +369,244 @@ img {
     text-align: center;
     font-size: 14px;
   }
+  /*section 1 */
+.body{
+    background-color: #299b;
+}
+/* Flexbox layout for search bar */
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+/* Search button styles*/
+.search-bar button{
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/back.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.profile-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 30px;
+  border: 1px solid #ffffff40;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+.image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.image .profile-pic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.data h2{
+  font-size: 33px;
+  font-weight: 600;
+}
+span{
+  font-size: 18px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.row .info{
+  text-align: center;
+  padding: 0 20px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.buttons .btn{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 8px 25px;
+  border-radius: 25px;
+  font-size: 18px;
+  white-space: nowrap;
+  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+}
+.buttons .btn:hover{
+  box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+}
+/* for profile pic*/
+@import url('httpss://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  background:linear-gradient(to right, #ba789753 0%, #385D6C 50%, #baa578a9 99%);
+}
+
+/* form header here*/
+
+.form-header  {
+  background-color: #efeff1e7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align:center;
+  color:#666;
+  padding:20px 0;
+  border-bottom:1px solid #cccccc;
+}
+/*---------------------------------------*/
+/* Form Body */
+/*---------------------------------------*/
+.form-body {
+    padding:10px 40px;
+    color:#666;
+  }
+  
+  .form-group{
+    margin-bottom:20px;
+  }
+  
+  .form-body .label-title {
+    color:#1BBA93;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .form-body .form-input {
+      font-size: 17px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 34px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #333333;
+      text-align: left;
+      border: 1px solid #d6d6d6;
+      border-radius: 4px;
+      background: white;
+      outline: none;
+  }
+  
+/*Horizontal groupe*/
+  
+  .horizontal-group .left{
+    float:left;
+    width:49%;
+  }
+  
+  .horizontal-group .right{
+    float:right;
+    width:49%;
+  }
+  
+  input[type="file"] {
+   outline: none;
+   cursor:pointer;
+   font-size: 17px;
+  }
+  
+  #range-label {
+   width:15%;
+   padding:5px;
+   background-color: #1BBA93;
+   color:white;
+   border-radius: 5px;
+   font-size: 17px;
+   position: relative;
+   top:-8px;
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color:#d9d9d9;
+  }
+  
+  /*---------------------------------------*/
+  /* Form Footer */
+  /*---------------------------------------*/
+  .form-footer {
+   clear:both;
+
+  }
+  .search-bar {
+  padding-top: 20px;
+    margin: 1px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+  /* logo section here*/
+  .container-1{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .email {
+    font-size: 18px;
+    color: #333;
+  }
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.button{
+  background-color: #0000FF;
+}
+.link a {
+  color: #0000FF; /* Blue color */
+  text-decoration: none;
+  margin-right: 20%;
+}
+.link a:hover {
+color: #0066CC; /*dark blue color*/
+}
+  
