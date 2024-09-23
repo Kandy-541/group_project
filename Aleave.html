@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application</title>
+    <style>
+
+    </style>
+</head>
+<body class="leave-page">
+    <a href="#"><img class="go-back-img" src="images/go-bak2.jpg" alt=""></a>
+
+    <button class="popup-btn" onclick="openForm()">New Leave</button>
+
+    <div id="overlay"></div>
+
+    <div id="popupForm">
+        <h2>Application for leave</h2>
+        <form>
+            <label for="">Name</label><br>
+            <input class="leaveBox" type="text" placeholder="Enter your name"><br/>
+            <label for="">Email</label><br>
+            <input class="leaveBox" type="email" placeholder="Enter your email"><br/>
+            <label for="">Leave category</label><br>
+            <select class="leaveBox" name="" id="">
+                <option value="sickLeave">sick leave</option>
+                <option value="longserviceLeave">long service leave</option>
+                <option value="annualLeave">Annual Leave</option>
+                <option value="unpaidLeave">Unpaid Leave</option>
+            </select><br/>
+            <label for="">date start</label><br>
+            <input class="leaveBox" type="datetime-local"><br>
+            <label for="">date end</label><br>
+            <input class="leaveBox" type="datetime-local"><br>
+
+            <button class="sub-btn" type="submit">Submit</button>
+            <button class="sub-btn" type="button" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <script src="script.js">
+    
+    </script>
+
+</body>
+</html>
